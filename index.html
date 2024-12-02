@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question2</title>
+    <script>
+            const books = { 
+                "Books":
+            [
+                {
+                    "title": "The Great Gatsby",
+                    "author": "F. Scott Fitzgerald",
+                    "publicationYear": 1925,
+                    "genres": ["Fiction", "Classics"]
+                },
+                {
+                    "title": "To Kill a Mockingbird",
+                    "author": "Harper Lee",
+                    "publicationYear": 1960,
+                    "genres": ["Fiction", "Coming-of-Age"]
+                }
+            ]
+            };
+
+            // Display in console
+            console.log(books.Books[0].title);
+            console.log(books.Books[1].author);
+
+            books.Books.forEach(books => {
+                console.log(books.genres);
+                
+            });
+    </script>
+</head>
+</html>
